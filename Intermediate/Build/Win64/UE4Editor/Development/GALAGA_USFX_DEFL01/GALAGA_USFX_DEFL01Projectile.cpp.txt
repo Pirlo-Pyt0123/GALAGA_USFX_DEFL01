@@ -1,0 +1,7 @@
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Development\GALAGA_USFX_DEFL01\Definitions.GALAGA_USFX_DEFL01.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\GALAGA_USFX_DEFL01Projectile.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\GALAGA_USFX_DEFL01Projectile.generated.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\juegazo\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\juegazo\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h

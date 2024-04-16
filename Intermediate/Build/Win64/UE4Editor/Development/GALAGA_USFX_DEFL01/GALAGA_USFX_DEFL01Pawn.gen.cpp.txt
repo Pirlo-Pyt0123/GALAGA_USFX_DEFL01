@@ -1,0 +1,17 @@
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Development\GALAGA_USFX_DEFL01\Definitions.GALAGA_USFX_DEFL01.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01/GALAGA_USFX_DEFL01Pawn.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+D:\juegazo\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\juegazo\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\juegazo\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\SubirArriba.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\SubirArriba.generated.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerInput.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Public\GestureRecognizer.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\Engine\Public\KeyState.h
+D:\juegazo\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerInput.generated.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\GALAGA_USFX_DEFL01Pawn.generated.h

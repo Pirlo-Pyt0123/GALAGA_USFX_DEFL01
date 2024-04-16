@@ -1,0 +1,7 @@
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Development\GALAGA_USFX_DEFL01\Definitions.GALAGA_USFX_DEFL01.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\juegazo\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01/NaveEnemigaTransporte.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\NaveEnemiga.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\NaveEnemiga.generated.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\NaveEnemigaTransporte.generated.h
