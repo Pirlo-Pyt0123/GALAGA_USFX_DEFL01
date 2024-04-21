@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GALAGA_USFX_DEFL01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BD8AD3FF-A10D-4FE1-8930-A318A47A00A5}</UniqueIdentifier>
+      <UniqueIdentifier>{EA964044-0FBC-4D1C-B7BA-6D95780F69C5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GALAGA_USFX_DEFL01.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\GALAGA_USFX_DEFL01Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{AEFC47AB-029F-45A3-B756-26B3CFEAB85B}</UniqueIdentifier>
+      <UniqueIdentifier>{D6C0DEAF-246B-45BF-8873-A036310DC88B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +32,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GALAGA_USFX_DEFL01">
-      <UniqueIdentifier>{39EF38CE-218E-4B2E-9E32-E2A64E979214}</UniqueIdentifier>
+      <UniqueIdentifier>{D60890C2-7675-4244-B9F9-64CAAADCA854}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GALAGA_USFX_DEFL01\Bomba.cpp">
       <Filter>Source\GALAGA_USFX_DEFL01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GALAGA_USFX_DEFL01\Bomba.h">
+      <Filter>Source\GALAGA_USFX_DEFL01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GALAGA_USFX_DEFL01\FabricaEnemigos.cpp">
+      <Filter>Source\GALAGA_USFX_DEFL01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GALAGA_USFX_DEFL01\FabricaEnemigos.h">
+      <Filter>Source\GALAGA_USFX_DEFL01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GALAGA_USFX_DEFL01\FabricaPIRLOs.cpp">
+      <Filter>Source\GALAGA_USFX_DEFL01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GALAGA_USFX_DEFL01\FabricaPIRLOs.h">
       <Filter>Source\GALAGA_USFX_DEFL01</Filter>
     </ClInclude>
     <None Include="..\..\Source\GALAGA_USFX_DEFL01\GALAGA_USFX_DEFL01.Build.cs">

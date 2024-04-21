@@ -112,6 +112,7 @@ void AGALAGA_USFX_DEFL01Pawn::Tick(float DeltaSeconds)
 	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
 
 	// Try and fire a shot
+	//FireShot(FireDirection);
 	FireShotDown(FireDirection);
 }
 
@@ -161,32 +162,33 @@ void AGALAGA_USFX_DEFL01Pawn::FireShotDown(FVector FireDirection)
     if (bCanFire == true)
     {
     // If we are pressing fire stick in a direction
-    if (FireDirection.SizeSquared() > 0.0f)
-    {
-    const FRotator FireRotation = FRotator(180.f, 0.f, 0.f); // Set the rotation to shoot downwards
-    // Spawn projectile at an offset from this pawn
-	FVector SpawnLocation = GetActorLocation() + FVector(-100, 0, -150) + FireRotation.RotateVector(GunOffset);
-
-    UWorld* const World = GetWorld();
-    if (World != nullptr)
-    {
-    // spawn the projectile
-    World->SpawnActor<ABomba>(SpawnLocation, FireRotation);
-    }
-
-    bCanFire = false;
-    World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &AGALAGA_USFX_DEFL01Pawn::ShotTimerExpired, FireRate);
-
-    // try and play the sound if specified
-    if (FireSound != nullptr)
-    {
-    UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-    }
-
-    bCanFire = false;
-    }
-    }
+		if (FireDirection.SizeSquared() > 0.0f)
+					{
+						const FRotator FireRotation = FireDirection.Rotation();
+						// Spawn projectile at an offset from this pawn
+						const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);
+			
+						UWorld* const World = GetWorld();
+						if (World != nullptr)
+						{
+							// spawn the projectile
+							World->SpawnActor<AGALAGA_USFX_DEFL01Projectile>(SpawnLocation, FireRotation);
+						}
+			
+						bCanFire = false;
+						World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &AGALAGA_USFX_DEFL01Pawn::ShotTimerExpired, FireRate);
+			
+						// try and play the sound if specified
+						if (FireSound != nullptr)
+						{
+							UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+						}
+			
+						bCanFire = false;
+					}
 }
+}
+
 
 void AGALAGA_USFX_DEFL01Pawn::Saltar()
 {

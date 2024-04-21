@@ -24,9 +24,9 @@ public:
 public:
 	ANaveEnemiga* NaveEnemiga01;
 	ANaveEnemigaTransporte* NaveEnemigaTransporte01;
-	ANaveEnemigaCaza* NaveEnemigaCaza01;
+	//ANaveEnemigaCaza* NaveEnemigaCaza01;
 	//ANaveEnemigaBombarderaVuelo* NaveEnemigaBombarderaVuelo01;
-	
+	ANaveEnemigaCaza* NaveEnemigaCaza01;
 
 protected:
 	// Called when the game starts or when spawned
@@ -37,6 +37,8 @@ public:
 	TArray<ANaveEnemigaCaza*> TANavesEnemigasCaza;
 	TArray<ANaveEnemigaTransporte*> TANavesEnemigasTransporte;
 	TArray<ANaveEnemigaBombarderaVuelo*> TANavesEnemigasBombarderaVuelo;
+	
+
 	
 
 

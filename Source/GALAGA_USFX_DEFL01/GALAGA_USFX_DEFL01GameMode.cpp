@@ -5,6 +5,8 @@
 #include "NaveEnemiga.h"
 #include "NaveEnemigaTransporte.h"
 #include "NaveEnemigaCaza.h"
+#include "FabricaPIRLOs.h"
+#include "FabricaEnemigos.h"
 #include "NaveEnemigaBombarderaVuelo.h"
 
 AGALAGA_USFX_DEFL01GameMode::AGALAGA_USFX_DEFL01GameMode()
@@ -15,7 +17,7 @@ AGALAGA_USFX_DEFL01GameMode::AGALAGA_USFX_DEFL01GameMode()
 
 void AGALAGA_USFX_DEFL01GameMode::BeginPlay()
 {
-	Super::BeginPlay();
+    Super::BeginPlay();
 	float x = 1200;
 	float y = -1000;
 	//Set the game state to playing
@@ -29,21 +31,33 @@ void AGALAGA_USFX_DEFL01GameMode::BeginPlay()
 	FVector ubicacionNave06 = FVector(x, y + 800, 1500.0f);
 
 
+
+	
 	FRotator rotacionNave = FRotator(0.0f, 0.0f, 0.0f);
+	
+
+
+
+
 
 	UWorld* const World = GetWorld();
 	if (World != nullptr)
 	{
 		//spawn naves enemigas pero en filas y columnas de cada clase
+		AFabricaPIRLOs* factory = World->SpawnActor<AFabricaEnemigos>(AFabricaEnemigos::StaticClass());
+		ANaveEnemiga* nave;
+		nave = factory->EnsambladoEnemigo("Bombardera");
+
+
 
 		for (int i = 0; i < 6; i++) {
-			for (int j = 0; j < 8; j++) {
+			for (int j = 0; j < 2; j++) {
 				FVector PosicionNaveActual = FVector(ubicacionNave01.X + j * 200, ubicacionNave01.Y + i * 300, ubicacionNave01.Z);
-				ANaveEnemigaCaza* NaveEnemigaCazaTemporal = World->SpawnActor<ANaveEnemigaCaza>(PosicionNaveActual, rotacionNave);
-				TANavesEnemigasCaza.Push(NaveEnemigaCazaTemporal);
+				 World->SpawnActor<ANaveEnemiga>(nave->GetClass(), PosicionNaveActual, rotacionNave);
+				
 			}
 		}
-		for(int i = 0; i < 1; i++) {
+		for (int i = 0; i < 1; i++) {
 			for (int j = 0; j < 1; j++) {
 				FVector PosicionNaveActual = FVector(ubicacionNave06.X + j * 200, ubicacionNave06.Y + i * 300, ubicacionNave06.Z);
 				ANaveEnemigaBombarderaVuelo* NaveEnemigaBombarderaVueloTemporal = World->SpawnActor<ANaveEnemigaBombarderaVuelo>(PosicionNaveActual, rotacionNave);
@@ -52,7 +66,7 @@ void AGALAGA_USFX_DEFL01GameMode::BeginPlay()
 		}
 
 
-	   
+
 
 
 		//NaveEnemigaTransporte01 = World->SpawnActor<ANaveEnemigaTransporte>(ubicacionNave01, rotacionNave);
@@ -62,29 +76,15 @@ void AGALAGA_USFX_DEFL01GameMode::BeginPlay()
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Hola estoy aqui")));
 
 	}
-
-
 }
+
+
+
 
 void AGALAGA_USFX_DEFL01GameMode::Tick(float DeltaTime)
 {
 		Super::Tick(DeltaTime);
-		//TiempoTranscurrido++;
-
-		//if (TiempoTranscurrido >= 100)
-		//{
-		//	int numeroEnemigo = FMath::RandRange(0, 9);
-		//	if (GEngine)
-		//	{
-		//		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Hola estoy aqui")));
-
-
-		//		GEngine->AddOnScreenDebugMessage(-1, 8.f, FColor::Green, FString::Printf(TEXT("Entero: %d"), numeroEnemigo));
-
-		//	}
-		//	//TANavesEnemigas[numeroEnemigo]->PrimaryActorTick.bCanEverTick = false;
-		//	TANavesEnemigas[numeroEnemigo]->SetVelocidad(0);
-		//}
+		
 
 }
 

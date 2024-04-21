@@ -1,0 +1,11 @@
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Development\GALAGA_USFX_DEFL01\Definitions.GALAGA_USFX_DEFL01.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\FabricaEnemigos.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\FabricaPIRLOs.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\NaveEnemiga.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\NaveEnemiga.generated.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\FabricaPIRLOs.generated.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\FabricaEnemigos.generated.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\NaveEnemigaCaza.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\NaveEnemigaCaza.generated.h
+D:\Galaga\GALAGA_USFX_DEFL01\Source\GALAGA_USFX_DEFL01\NaveEnemigaBombardera.h
+D:\Galaga\GALAGA_USFX_DEFL01\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA_USFX_DEFL01\NaveEnemigaBombardera.generated.h

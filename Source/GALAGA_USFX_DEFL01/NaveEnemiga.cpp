@@ -18,17 +18,13 @@ ANaveEnemiga::ANaveEnemiga()
 
 }
 
-// Called when the game starts or when spawned
 void ANaveEnemiga::BeginPlay()
 {
-	Super::BeginPlay();
-	
+
 }
 
-// Called every frame
 void ANaveEnemiga::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
 
 }
 
